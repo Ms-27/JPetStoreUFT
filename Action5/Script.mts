@@ -7,5 +7,8 @@ Browser("JPetStore Demo").Page("JPetStore Demo").WebButton("Continue").Click @@ 
 ' On valide les informations
 Browser("JPetStore Demo").Page("JPetStore Demo_2").WebButton("Submit").Click @@ hightlight id_;_Browser("JPetStore Demo").Page("JPetStore Demo 2").WebButton("Submit")_;_script infofile_;_ZIP::ssf10.xml_;_
 
+' On attend que tous les éléments soit chargés
+Browser("JPetStore Demo").Sync
+
 ' On se déconnecte
 Browser("JPetStore Demo").Page("JPetStore Demo_3").Link("Sign Out").Click @@ hightlight id_;_Browser("JPetStore Demo").Page("JPetStore Demo 3").Link("Sign Out")_;_script infofile_;_ZIP::ssf11.xml_;_

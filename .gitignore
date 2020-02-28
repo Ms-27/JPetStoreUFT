@@ -3,3 +3,8 @@ Action1/SnapShots
 Action2/SnapShots
 Action4/SnapShots
 Action5/SnapShots
+
+#UFT ignore section
+*.lck
+/Res*
+#end UFT ignore section
